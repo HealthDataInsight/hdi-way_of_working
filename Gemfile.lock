@@ -1,4 +1,13 @@
 GIT
+  remote: https://github.com/HealthDataInsight/way_of_working-code_of_conduct-contributor_covenant.git
+  revision: 9c4c73646aa07217c76612dfbfab47badf4d98ab
+  branch: feature/v1.0.0
+  specs:
+    way_of_working-code_of_conduct-contributor_covenant (0.1.0)
+      way_of_working (~> 2.0)
+      zeitwerk (~> 2.6.18)
+
+GIT
   remote: https://github.com/HealthDataInsight/way_of_working-decision_record-madr.git
   revision: 0e067c3a80033e7a3a37005b707840c1c164db3a
   branch: feature/v1.0.0
@@ -24,6 +33,7 @@ PATH
   remote: .
   specs:
     hdi-way_of_working (0.1.0)
+      way_of_working-code_of_conduct-contributor_covenant
       way_of_working-decision_record-madr
 
 GEM
@@ -90,6 +100,7 @@ DEPENDENCIES
   minitest (~> 5.16)
   rake (~> 13.0)
   way_of_working!
+  way_of_working-code_of_conduct-contributor_covenant!
   way_of_working-decision_record-madr!
 
 BUNDLED WITH
