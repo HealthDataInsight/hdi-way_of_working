@@ -17,3 +17,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added dark mode support to our GitHub pages theme
 - Adopted: Cypress end-to-end testing
 - Adopted: Semantic Versioning
+- Adopted: Accessibility (a11y) testing using pa11y
