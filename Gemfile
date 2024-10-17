@@ -10,7 +10,7 @@ def github_gem(plugin_name)
   gem gem_name, git: "https://github.com/HealthDataInsight/#{gem_name}.git", branch: 'feature/v1.0.0'
 end
 
-# 'changelog-keepachangelog'
+github_gem('changelog-keepachangelog')
 github_gem('code_linting-hdi')
 github_gem('code_of_conduct-contributor_covenant')
 github_gem('decision_record-madr')

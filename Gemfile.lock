@@ -1,4 +1,13 @@
 GIT
+  remote: https://github.com/HealthDataInsight/way_of_working-changelog-keepachangelog.git
+  revision: 4039e64983abfa0ff4a98e20bd348302a8d05f24
+  branch: feature/v1.0.0
+  specs:
+    way_of_working-changelog-keepachangelog (1.0.0)
+      way_of_working (~> 2.0)
+      zeitwerk (~> 2.6.18)
+
+GIT
   remote: https://github.com/HealthDataInsight/way_of_working-code_linting-hdi.git
   revision: 19e4d964a6db5a2dbc6c9e95d429070dcc09d6e1
   branch: feature/v1.0.0
@@ -42,6 +51,7 @@ PATH
   remote: .
   specs:
     hdi-way_of_working (0.1.0)
+      way_of_working-changelog-keepachangelog
       way_of_working-code_linting-hdi
       way_of_working-code_of_conduct-contributor_covenant
       way_of_working-decision_record-madr
@@ -110,6 +120,7 @@ DEPENDENCIES
   minitest (~> 5.16)
   rake (~> 13.0)
   way_of_working!
+  way_of_working-changelog-keepachangelog!
   way_of_working-code_linting-hdi!
   way_of_working-code_of_conduct-contributor_covenant!
   way_of_working-decision_record-madr!
