@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/HealthDataInsight/way_of_working-changelog-keepachangelog.git
-  revision: 4039e64983abfa0ff4a98e20bd348302a8d05f24
+  revision: c4dff8c0928733de8214e78ebf370e21c95a1e5a
   branch: feature/v1.0.0
   specs:
     way_of_working-changelog-keepachangelog (1.0.0)
@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/HealthDataInsight/way_of_working-code_of_conduct-contributor_covenant.git
-  revision: 9c4c73646aa07217c76612dfbfab47badf4d98ab
+  revision: 9931d3879769fa62e40480cf2ad271e1b6f64149
   branch: feature/v1.0.0
   specs:
     way_of_working-code_of_conduct-contributor_covenant (0.1.0)
@@ -36,7 +36,7 @@ GIT
 
 GIT
   remote: https://github.com/HealthDataInsight/way_of_working-inclusive_language-alex.git
-  revision: f59dafc95a75523e45d708b72f7b0b035811e7d8
+  revision: 529812da01a0ca7a083138e9ea5c04c2a965ea66
   branch: feature/v1-release-prep
   specs:
     way_of_working-inclusive_language-alex (1.0.0)
