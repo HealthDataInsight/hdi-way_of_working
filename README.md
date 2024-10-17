@@ -1,5 +1,7 @@
 # Hdi::WayOfWorking
 
+![HDI Way of Working v0.1.0](https://img.shields.io/badge/HDI_Way_of_Working-v0.1.0-%238169e3?labelColor=black)
+
 TODO: Delete this and the text below, and describe your gem
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/hdi/way_of_working`. To experiment with that code, run `bin/console` for an interactive prompt.
