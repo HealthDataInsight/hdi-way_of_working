@@ -9,10 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Added guidance: Markdown Any Decision Records (MADR) plugin
-- Added guidance: Contributor Covenant Code of Conduct plugin
-- Added guidance: MegaLinter plugin
-- Added guidance: Keep a Changelog plugin
+- Adopted: Markdown Any Decision Records (MADR), via a plugin
+- Adopted: Contributor Covenant Code of Conduct, via a plugin
+- Adopted: MegaLinter, via a plugin
+- Adopted: Keep a Changelog, via a plugin
 - Added pa11y automated accessibility testing
 - Added dark mode support to our GitHub pages theme
-- Added guidance: Cypress end-to-end testing
+- Adopted: Cypress end-to-end testing
+- Adopted: Semantic Versioning
