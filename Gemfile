@@ -17,7 +17,7 @@ github_gem('decision_record-madr')
 # 'github_audit'
 # 'github_audit-cis'
 github_gem('inclusive_language-alex', 'feature/v1-release-prep')
-# 'pull_request_template-hdi'
+github_gem('pull_request_template-hdi')
 
 # Specify your gem's dependencies in hdi-way_of_working.gemspec
 gemspec

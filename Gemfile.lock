@@ -43,8 +43,17 @@ GIT
       way_of_working (~> 2.0)
 
 GIT
+  remote: https://github.com/HealthDataInsight/way_of_working-pull_request_template-hdi.git
+  revision: a8eaa1a5e5dc55635b465989d2aa446602232cc9
+  branch: feature/v1.0.0
+  specs:
+    way_of_working-pull_request_template-hdi (1.0.0)
+      way_of_working (~> 2.0)
+      zeitwerk (~> 2.6.18)
+
+GIT
   remote: https://github.com/HealthDataInsight/way_of_working.git
-  revision: d24b49d45b1f3b020fac99c5bffc6cefcc194252
+  revision: 6e1b7349db2e1c32ec1679f807a75f63e75716f3
   branch: feature/v2-wip
   specs:
     way_of_working (2.0.0)
@@ -64,6 +73,7 @@ PATH
       way_of_working-code_of_conduct-contributor_covenant
       way_of_working-decision_record-madr
       way_of_working-inclusive_language-alex
+      way_of_working-pull_request_template-hdi
 
 GEM
   remote: https://rubygems.org/
@@ -134,6 +144,7 @@ DEPENDENCIES
   way_of_working-code_of_conduct-contributor_covenant!
   way_of_working-decision_record-madr!
   way_of_working-inclusive_language-alex!
+  way_of_working-pull_request_template-hdi!
 
 BUNDLED WITH
    2.5.21
