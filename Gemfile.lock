@@ -1,4 +1,13 @@
 GIT
+  remote: https://github.com/HealthDataInsight/way_of_working-code_linting-hdi.git
+  revision: 19e4d964a6db5a2dbc6c9e95d429070dcc09d6e1
+  branch: feature/v1.0.0
+  specs:
+    way_of_working-code_linting-hdi (0.1.0)
+      way_of_working (~> 2.0)
+      zeitwerk (~> 2.6.18)
+
+GIT
   remote: https://github.com/HealthDataInsight/way_of_working-code_of_conduct-contributor_covenant.git
   revision: 9c4c73646aa07217c76612dfbfab47badf4d98ab
   branch: feature/v1.0.0
@@ -18,7 +27,7 @@ GIT
 
 GIT
   remote: https://github.com/HealthDataInsight/way_of_working.git
-  revision: 84dc0e50b684c03e4f66493ccf83335fbd961c08
+  revision: a9b467074162ca1ac8135a88b82c011dd67a0557
   branch: feature/v2-wip
   specs:
     way_of_working (2.0.0)
@@ -33,6 +42,7 @@ PATH
   remote: .
   specs:
     hdi-way_of_working (0.1.0)
+      way_of_working-code_linting-hdi
       way_of_working-code_of_conduct-contributor_covenant
       way_of_working-decision_record-madr
 
@@ -100,6 +110,7 @@ DEPENDENCIES
   minitest (~> 5.16)
   rake (~> 13.0)
   way_of_working!
+  way_of_working-code_linting-hdi!
   way_of_working-code_of_conduct-contributor_covenant!
   way_of_working-decision_record-madr!
 

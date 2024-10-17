@@ -11,7 +11,7 @@ def github_gem(plugin_name)
 end
 
 # 'changelog-keepachangelog'
-# 'code_linting-hdi'
+github_gem('code_linting-hdi')
 github_gem('code_of_conduct-contributor_covenant')
 github_gem('decision_record-madr')
 # 'github_audit'

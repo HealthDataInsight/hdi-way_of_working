@@ -11,5 +11,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added Markdown Any Decision Records (MADR) with generator commands
 - Added Contributor Covenant Code of Conduct with generator command
+- Added MegaLinter for linting common file formats with generator command and rake task
 - Added pa11y automated accessibility testing
 - Added dark mode support to our GitHub pages theme
